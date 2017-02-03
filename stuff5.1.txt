@@ -1,0 +1,5 @@
+degrees = int(input("What is the temperature in Fahrenheit?"))
+wind = int(input("What is the wind speed?"))
+formula = 35.74 + 0.6215 * degrees - 35.75*(wind**0.16) + 0.4275*degrees*(wind**0.16)
+
+print ("The temperature with wind chill is", formula, "degrees Fahrenheit")
